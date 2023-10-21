@@ -1,0 +1,5 @@
+C:\Users\pethersonamorim\Documents\TFS\apresentacao-mailsender\Apresentacao-Mailsender\ApresentacaoMailsender.Service\obj\Debug\net6.0\ApresentacaoMailsender.Service.csproj.AssemblyReference.cache
+C:\Users\pethersonamorim\Documents\TFS\apresentacao-mailsender\Apresentacao-Mailsender\ApresentacaoMailsender.Service\obj\Debug\net6.0\ApresentacaoMailsender.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pethersonamorim\Documents\TFS\apresentacao-mailsender\Apresentacao-Mailsender\ApresentacaoMailsender.Service\obj\Debug\net6.0\ApresentacaoMailsender.Service.AssemblyInfoInputs.cache
+C:\Users\pethersonamorim\Documents\TFS\apresentacao-mailsender\Apresentacao-Mailsender\ApresentacaoMailsender.Service\obj\Debug\net6.0\ApresentacaoMailsender.Service.AssemblyInfo.cs
+C:\Users\pethersonamorim\Documents\TFS\apresentacao-mailsender\Apresentacao-Mailsender\ApresentacaoMailsender.Service\obj\Debug\net6.0\ApresentacaoMailsender.Service.csproj.CoreCompileInputs.cache

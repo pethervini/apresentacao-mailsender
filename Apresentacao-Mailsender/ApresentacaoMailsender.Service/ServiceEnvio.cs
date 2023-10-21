@@ -31,7 +31,7 @@ namespace ApresentacaoMailsender.Service
 
         public async  Task StartAsync(CancellationToken cancellationToken)
         {
-            var dataToMailSender = new MeuModeloCarta("to@email.com","from@email.com", "minha carta para apresentacao","Petherson");
+            var dataToMailSender = new MeuModeloCarta("pethersonamorim@bne.com.br","pethervini@gmail.com", "minha carta para apresentacao","Petherson");
 
             dynamic objeto = new ExpandoObject();
             objeto.parameters = dataToMailSender;

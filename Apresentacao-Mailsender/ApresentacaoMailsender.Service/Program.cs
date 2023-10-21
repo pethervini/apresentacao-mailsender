@@ -1,4 +1,6 @@
 ﻿using ApresentacaoMailsender.Service;
+using ApresentacaoMailsender.Service.Interface;
+using ApresentacaoMailsender.Service.Service;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -22,8 +24,10 @@ builder.ConfigureServices((hostingContext, services) =>
 {
     var urlMailSenderTransacionalAPI = hostingContext.Configuration["MailSenderTransacionalApi"];
 
+    services.AddHttpClient();
     services.AddSingleton<MailSender.Transacional.Client.IClient>(new MailSender.Transacional.Client.Client(urlMailSenderTransacionalAPI, new HttpClient()));
-    services.AddSingleton<IHostedService, Service>();
+    services.AddScoped<IMailsenderService, ApresentacaoMailsender.Service.Service.MailsenderService>();
+    services.AddSingleton<IHostedService, ServiceEnvio>();
 });
 
 await builder.RunConsoleAsync();

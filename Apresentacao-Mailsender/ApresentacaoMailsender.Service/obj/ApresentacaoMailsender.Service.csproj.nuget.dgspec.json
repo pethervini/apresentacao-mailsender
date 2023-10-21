@@ -41,6 +41,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "MailSender.API.New.Client": {
+              "target": "Package",
+              "version": "[1.0.5, )"
+            },
             "MailSender.Transacional.Client": {
               "target": "Package",
               "version": "[1.2.10, )"
@@ -68,6 +72,10 @@
             "Microsoft.Extensions.Hosting": {
               "target": "Package",
               "version": "[7.0.1, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
